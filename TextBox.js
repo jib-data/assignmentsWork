@@ -10,7 +10,7 @@ let textBoxComp = () => {
   return (
     <>
       <h3>{displaytext}</h3>
-      <textBox onChange={onTypeHandler}></textBox>
+      <input type="text" value={displaytext} onChange={onTypeHandler} />
     </>
   );
 };
